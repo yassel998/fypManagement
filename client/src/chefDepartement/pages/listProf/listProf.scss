@@ -1,0 +1,18 @@
+.listProf {
+  display: flex;
+  width: 100%;
+  .listProfContainer {
+    flex: 6;
+
+    .dataTableProf {
+      padding: 15px;
+      // width: 90%;
+
+      span {
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

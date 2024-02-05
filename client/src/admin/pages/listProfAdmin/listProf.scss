@@ -1,0 +1,30 @@
+.listProf {
+  display: flex;
+  width: 100%;
+  .listProfContainer {
+    flex: 6;
+
+    .dataTableProf {
+      padding: 15px;
+      // width: 90%;
+      h1 {
+        color: rgb(156, 154, 154);
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .deleteAdmin {
+    padding: 2px 5px;
+    height: 27px;
+    border-radius: 5px;
+    color: red;
+    border: 1px dotted rgb(73, 2, 2);
+    cursor: pointer;
+
+    &:hover {
+      background-color: red;
+      color: white;
+    }
+  }
+}

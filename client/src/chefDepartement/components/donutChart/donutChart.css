@@ -1,0 +1,19 @@
+.donutChart {
+  flex: 3;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+}
+.donutChart .top {
+  color: gray;
+}
+.donutChart .bottom {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.donutChart .bottom .donut {
+  width: 300px;
+  height: 300px;
+}/*# sourceMappingURL=donutChart.css.map */

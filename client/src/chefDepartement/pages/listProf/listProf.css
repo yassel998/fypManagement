@@ -1,0 +1,10 @@
+.listProf {
+  display: flex;
+  width: 100%;
+}
+.listProf .listProfContainer {
+  flex: 6;
+}
+.listProf .listProfContainer .dataTableProf {
+  padding: 15px;
+}/*# sourceMappingURL=listProf.css.map */

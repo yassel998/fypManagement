@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.list {
+  display: flex;
+  width: 100%;
+}
+.list .listContainer {
+  flex: 6;
+}
+.list .listContainer .dataTable {
+  padding: 20px;
+}
+.list .listContainer .dataTable .cellWithStatus {
+  padding: 5px;
+  border-radius: 5px;
+}
+.list .listContainer .dataTable .cellWithStatus.soutené {
+  background-color: rgba(0, 128, 0, 0.05);
+  color: green;
+}
+.list .listContainer .dataTable .cellWithStatus.en-cours {
+  background-color: rgba(255, 217, 0, 0.05);
+  color: goldenrod;
+}
+.list .listContainer .dataTable .cellWithStatus.terminé {
+  background-color: rgba(255, 0, 0, 0.05);
+  color: crimson;
+}
+.list .listContainer .dataTable .cellWithStatus.postulé {
+  background-color: rgba(66, 117, 149, 0.05);
+  color: rgb(11, 99, 171);
+}/*# sourceMappingURL=listStudent.css.map */

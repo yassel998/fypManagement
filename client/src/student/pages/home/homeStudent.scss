@@ -1,0 +1,18 @@
+.homeAdmin {
+  display: flex;
+
+  .homeContainerAdmin {
+    flex: 6;
+
+    .widgetsAdmin,
+    .chartsAdmin {
+      display: flex;
+      padding: 20px;
+      gap: 10px;
+    }
+
+    .chartsAdmin {
+      padding: 4px 20px;
+    }
+  }
+}
