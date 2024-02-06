@@ -9,3 +9,5 @@ I am currently working on several exciting improvements to make my final year pr
 -Enhanced UI/UX
 -Additional Functionalities
 -MVC Architecture in Backend
+-JWT Integration
+-Cleaner Code
